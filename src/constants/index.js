@@ -58,6 +58,11 @@ export const navigation = [
     url: "#roadmap",
   },
   {
+    id: "whitepaper",
+    title: "Whitepaper",
+    url: "#whitepaper",
+  },
+  {
     id: "4",
     title: "New account",
     url: "#signup",
