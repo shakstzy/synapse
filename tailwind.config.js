@@ -4,6 +4,17 @@ import plugin from "tailwindcss/plugin";
 
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  safelist: [
+    'fixed', 'absolute', 'relative', 'sticky',
+    'top-0', 'top-1', 'top-2', 'top-4', 'top-8', 'top-16',
+    'bottom-0', 'bottom-1', 'bottom-2', 'bottom-4', 'bottom-8', 'bottom-16',
+    'left-0', 'left-1', 'left-2', 'left-4', 'left-8', 'left-16',
+    'right-0', 'right-1', 'right-2', 'right-4', 'right-8', 'right-16',
+    'z-0', 'z-1', 'z-2', 'z-3', 'z-4', 'z-5', 'z-10', 'z-20', 'z-30', 'z-40', 'z-50',
+    'mx-auto', 'my-auto', 'px-4', 'py-4', 'p-4', 'rounded', 'rounded-xl', 'rounded-2xl',
+    'shadow', 'shadow-lg', 'shadow-xl',
+    // Add more if you use other dynamic classes for floating elements
+  ],
   theme: {
     extend: {
       colors: {
