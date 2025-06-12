@@ -68,7 +68,7 @@ const Header = () => {
         </nav>
 
         <div className="hidden lg:flex gap-4">
-          <Button href="#contact">
+          <Button href="https://docs.google.com/forms/d/e/1FAIpQLSfeTMnKhKJKmDmStiSpVb98xMtldHynMDvswA5Sr5YwhfP9NA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
             Get in touch
           </Button>
         </div>
