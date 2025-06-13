@@ -34,6 +34,20 @@ import {
   telegram,
   twitter,
   yourlogo,
+  aaveLogo,
+  jupiterLogo,
+  tetherLogo,
+  cosmosLogo,
+  curveLogo,
+  pancakeswapLogo,
+  bnbLogo,
+  solanaLogo,
+  ethereumLogo,
+  bitcoinLogo,
+  optimismLogo,
+  bitcoinPngLogo,
+  ethereumPngLogo,
+  calendar,
 } from "../assets";
 
 export const navigation = [
@@ -80,7 +94,19 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [
+  bitcoinLogo,
+  ethereumLogo,
+  solanaLogo,
+  bnbLogo,
+  tetherLogo,
+  optimismLogo,
+  aaveLogo,
+  jupiterLogo,
+  pancakeswapLogo,
+  cosmosLogo,
+  curveLogo,
+];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -152,62 +178,20 @@ export const collabContent = [
 ];
 
 export const collabApps = [
-  {
-    id: "0",
-    title: "Figma",
-    icon: figma,
-    width: 26,
-    height: 36,
-  },
-  {
-    id: "1",
-    title: "Notion",
-    icon: notion,
-    width: 34,
-    height: 36,
-  },
-  {
-    id: "2",
-    title: "Discord",
-    icon: discord,
-    width: 36,
-    height: 28,
-  },
-  {
-    id: "3",
-    title: "Slack",
-    icon: slack,
-    width: 34,
-    height: 35,
-  },
-  {
-    id: "4",
-    title: "Photoshop",
-    icon: photoshop,
-    width: 34,
-    height: 34,
-  },
-  {
-    id: "5",
-    title: "Protopie",
-    icon: protopie,
-    width: 34,
-    height: 34,
-  },
-  {
-    id: "6",
-    title: "Framer",
-    icon: framer,
-    width: 26,
-    height: 34,
-  },
-  {
-    id: "7",
-    title: "Raindrop",
-    icon: raindrop,
-    width: 38,
-    height: 32,
-  },
+  { id: "0", title: "Aave", icon: aaveLogo, width: 36, height: 36 },
+  { id: "1", title: "Jupiter", icon: jupiterLogo, width: 36, height: 36 },
+  { id: "2", title: "Tether", icon: tetherLogo, width: 36, height: 36 },
+  { id: "3", title: "Cosmos", icon: cosmosLogo, width: 36, height: 36 },
+  { id: "4", title: "Curve", icon: curveLogo, width: 36, height: 36 },
+  { id: "5", title: "PancakeSwap", icon: pancakeswapLogo, width: 36, height: 36 },
+  { id: "6", title: "BNB", icon: bnbLogo, width: 36, height: 36 },
+  { id: "7", title: "Solana", icon: solanaLogo, width: 36, height: 36 },
+  { id: "8", title: "Ethereum", icon: ethereumLogo, width: 36, height: 36 },
+  { id: "9", title: "Bitcoin", icon: bitcoinLogo, width: 36, height: 36 },
+  { id: "10", title: "Optimism", icon: optimismLogo, width: 36, height: 36 },
+  { id: "11", title: "Bitcoin PNG", icon: bitcoinPngLogo, width: 36, height: 36 },
+  { id: "12", title: "Ethereum PNG", icon: ethereumPngLogo, width: 36, height: 36 },
+  { id: "13", title: "Aave (again)", icon: aaveLogo, width: 36, height: 36 },
 ];
 
 export const pricing = [
@@ -304,13 +288,13 @@ export const socials = [
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
-    url: "#",
+    url: "https://discord.gg/SramhDmQVh",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/synpsxyz",
   },
   {
     id: "2",
@@ -322,12 +306,12 @@ export const socials = [
     id: "3",
     title: "Telegram",
     iconUrl: telegram,
-    url: "#",
+    url: "https://t.me/synpsxyz",
   },
   {
     id: "4",
-    title: "Facebook",
+    title: "Calendar",
     iconUrl: facebook,
-    url: "#",
+    url: "https://tinyurl.com/synpsxyz",
   },
 ];

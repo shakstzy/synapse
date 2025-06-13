@@ -77,6 +77,20 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import aaveLogo from "./cryptologos/selected/aave-aave-logo.svg";
+import jupiterLogo from "./cryptologos/selected/jupiter-ag-jup-logo.svg";
+import tetherLogo from "./cryptologos/selected/tether-usdt-logo.svg";
+import cosmosLogo from "./cryptologos/selected/cosmos-atom-logo.svg";
+import curveLogo from "./cryptologos/selected/curve-dao-token-crv-logo.svg";
+import pancakeswapLogo from "./cryptologos/selected/pancakeswap-cake-logo.svg";
+import bnbLogo from "./cryptologos/selected/bnb-bnb-logo.svg";
+import solanaLogo from "./cryptologos/selected/solana-sol-logo.svg";
+import ethereumLogo from "./cryptologos/selected/ethereum-eth-logo.svg";
+import bitcoinLogo from "./cryptologos/selected/bitcoin-btc-logo.svg";
+import optimismLogo from "./cryptologos/selected/optimism-ethereum-op-logo.svg";
+import bitcoinPngLogo from "./cryptologos/selected/Bitcoin.svg.png";
+import ethereumPngLogo from "./cryptologos/selected/Ethereum_logo_2014.svg.png";
+
 export {
   brainwave,
   check,
@@ -148,4 +162,17 @@ export {
   twitter,
   website,
   websitesquare,
+  aaveLogo,
+  jupiterLogo,
+  tetherLogo,
+  cosmosLogo,
+  curveLogo,
+  pancakeswapLogo,
+  bnbLogo,
+  solanaLogo,
+  ethereumLogo,
+  bitcoinLogo,
+  optimismLogo,
+  bitcoinPngLogo,
+  ethereumPngLogo,
 };
