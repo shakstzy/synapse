@@ -47,7 +47,6 @@ import {
   optimismLogo,
   bitcoinPngLogo,
   ethereumPngLogo,
-  calendar,
 } from "../assets";
 
 export const navigation = [
@@ -288,13 +287,13 @@ export const socials = [
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
-    url: "https://discord.gg/SramhDmQVh",
+    url: "#",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "https://x.com/synpsxyz",
+    url: "#",
   },
   {
     id: "2",
@@ -306,12 +305,12 @@ export const socials = [
     id: "3",
     title: "Telegram",
     iconUrl: telegram,
-    url: "https://t.me/synpsxyz",
+    url: "#",
   },
   {
     id: "4",
-    title: "Calendar",
+    title: "Facebook",
     iconUrl: facebook,
-    url: "https://tinyurl.com/synpsxyz",
+    url: "#",
   },
 ];
