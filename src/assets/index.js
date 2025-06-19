@@ -38,9 +38,9 @@ import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
 
-import service1 from "./services/service-1.png";
-import service2 from "./services/service-2.png";
-import service3 from "./services/service-3.png";
+import service1 from "./services/1.png";
+import service2 from "./services/2.png";
+import service3 from "./services/3.png";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -90,6 +90,14 @@ import bitcoinLogo from "./cryptologos/selected/bitcoin-btc-logo.svg";
 import optimismLogo from "./cryptologos/selected/optimism-ethereum-op-logo.svg";
 import bitcoinPngLogo from "./cryptologos/selected/Bitcoin.svg.png";
 import ethereumPngLogo from "./cryptologos/selected/Ethereum_logo_2014.svg.png";
+import coingeckoLogo from "./coingecko.png";
+
+import aiIcon from "./6rectangle/new/ailogo.png";
+import web3Icon from "./6rectangle/new/web3logo.png";
+import buildIcon from "./6rectangle/new/buildlogo.png";
+import reliabilityIcon from "./6rectangle/new/reliabilitylogo.png";
+import integrationIcon from "./6rectangle/new/integratelogo.png";
+import dataIcon from "./6rectangle/new/datalogo.png";
 
 export {
   brainwave,
@@ -175,4 +183,12 @@ export {
   optimismLogo,
   bitcoinPngLogo,
   ethereumPngLogo,
+  plusSquare as calendar,
+  coingeckoLogo,
+  aiIcon,
+  web3Icon,
+  buildIcon,
+  reliabilityIcon,
+  integrationIcon,
+  dataIcon,
 };

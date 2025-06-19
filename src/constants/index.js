@@ -47,6 +47,14 @@ import {
   optimismLogo,
   bitcoinPngLogo,
   ethereumPngLogo,
+  calendar,
+  coingeckoLogo,
+  aiIcon,
+  web3Icon,
+  buildIcon,
+  reliabilityIcon,
+  integrationIcon,
+  dataIcon,
 } from "../assets";
 
 export const navigation = [
@@ -94,17 +102,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [
-  bitcoinLogo,
-  ethereumLogo,
-  solanaLogo,
-  bnbLogo,
-  tetherLogo,
-  optimismLogo,
-  aaveLogo,
-  jupiterLogo,
-  pancakeswapLogo,
-  cosmosLogo,
-  curveLogo,
+  coingeckoLogo,
 ];
 
 export const brainwaveServices = [
@@ -165,14 +163,17 @@ export const collabContent = [
     id: "0",
     title: "Seamless Integration",
     text: collabText,
+    description: "Integrate with your favorite tools and platforms effortlessly, ensuring your workflows remain uninterrupted and efficient.",
   },
   {
     id: "1",
     title: "Smart Automation",
+    description: "Automate repetitive tasks and processes, freeing up your team to focus on what matters most.",
   },
   {
     id: "2",
     title: "Top-notch Security",
+    description: "Benefit from enterprise-grade security protocols that keep your data and operations safe at all times.",
   },
 ];
 
@@ -188,44 +189,49 @@ export const collabApps = [
   { id: "8", title: "Ethereum", icon: ethereumLogo, width: 36, height: 36 },
   { id: "9", title: "Bitcoin", icon: bitcoinLogo, width: 36, height: 36 },
   { id: "10", title: "Optimism", icon: optimismLogo, width: 36, height: 36 },
-  { id: "11", title: "Bitcoin PNG", icon: bitcoinPngLogo, width: 36, height: 36 },
-  { id: "12", title: "Ethereum PNG", icon: ethereumPngLogo, width: 36, height: 36 },
-  { id: "13", title: "Aave (again)", icon: aaveLogo, width: 36, height: 36 },
 ];
 
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "Developer",
+    description: "Access Synapse's core platform and documentation.",
+    price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Access Synapse's core platform and documentation.",
+      "Explore and utilize community-generated MCP servers.",
+      "Develop and test your first custom MCP servers.",
+      "Participate in community bounties and grants.",
     ],
+    cta: "Start Free",
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Partner",
+    description: "Unlock advanced tools, monetization, analytics, and priority support.",
+    price: null,
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Includes all Developer Access features.",
+      "Advanced tools for custom MCP server deployment and optimization.",
+      "Monetize your MCP servers with flexible listing and revenue-sharing options.",
+      "Gain insights with usage analytics for your listed servers.",
+      "Receive priority support for rapid development.",
     ],
+    cta: "Get Started",
   },
   {
     id: "2",
     title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    description: "Bespoke custom MCP server development, integration, and dedicated support.",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Bespoke custom MCP server development and dedicated maintenance.",
+      "Seamless integration with your legacy systems via the Agent Development Kit (ADK).",
+      "Strategic partnerships for valuable data aggregation and licensing.",
+      "Dedicated account management and personalized technical support.",
+      "Maximize performance for high-volume agentic commerce.",
     ],
+    cta: "Contact Us",
   },
 ];
 
@@ -235,7 +241,7 @@ export const benefits = [
     title: "Unleash Autonomous AI",
     text: "Empower AI to execute complex intents seamlessly across Web3 and traditional services, transforming natural language into action.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
+    iconUrl: aiIcon,
     imageUrl: benefitImage2,
   },
   {
@@ -243,7 +249,7 @@ export const benefits = [
     title: "Simplify Web3 Complexity",
     text: "Abstract away fragmented infrastructure, making decentralized applications and structured products effortlessly accessible for all users.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
+    iconUrl: web3Icon,
     imageUrl: benefitImage2,
     light: true,
   },
@@ -252,7 +258,7 @@ export const benefits = [
     title: "Build & Monetize Innovations",
     text: "Compose bespoke structured financial products from modular MCP servers, unlocking new revenue streams and fostering rapid innovation.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
+    iconUrl: buildIcon,
     imageUrl: benefitImage2,
   },
   {
@@ -260,7 +266,7 @@ export const benefits = [
     title: "Experience Unrivaled Reliability",
     text: "Rely on community-driven maintenance and a Verifier Agent for guaranteed uptime and trusted performance across all agentic operations.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
+    iconUrl: reliabilityIcon,
     imageUrl: benefitImage2,
     light: true,
   },
@@ -269,7 +275,7 @@ export const benefits = [
     title: "Integrate Any System",
     text: "Extend AI's reach to legacy systems and private APIs using our Agent Development Kit (ADK), bridging the on-chain and off-chain worlds.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
+    iconUrl: integrationIcon,
     imageUrl: benefitImage2,
   },
   {
@@ -277,7 +283,7 @@ export const benefits = [
     title: "Drive Strategy with Data",
     text: "Gain unique, real-time market intelligence from aggregated agent usage and intent flows, optimizing your products and investments.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
+    iconUrl: dataIcon,
     imageUrl: benefitImage2,
   },
 ];
@@ -287,30 +293,30 @@ export const socials = [
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
-    url: "#",
+    url: "https://discord.gg/SramhDmQVh",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/synpsxyz",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/synpsxyz/",
   },
   {
     id: "3",
     title: "Telegram",
     iconUrl: telegram,
-    url: "#",
+    url: "https://t.me/synpsxyz",
   },
   {
     id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
+    title: "Calendar",
+    iconUrl: calendar,
+    url: "https://tinyurl.com/synpsxyz",
   },
 ];

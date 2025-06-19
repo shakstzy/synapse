@@ -28,8 +28,9 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Synapse"
-          title="Pay once, use forever"
+          tag=""
+          title="Choose Your Path to Autonomous AI"
+          text="Unlock the full potential of agentic commerce and Web3 innovation with flexible plans designed for every builder and enterprise."
         />
 
         <div className="relative">
