@@ -68,7 +68,7 @@ const Hero = () => {
           <p className="body-1 max-w-4xl mx-auto mb-6 text-n-2 lg:mb-8">
             Synapse unlocks the full potential of models by enabling seamless interaction & autonomous execution within decentralized environments
           </p>
-          <Button href="https://docs.google.com/forms/d/e/1FAIpQLSfeTMnKhKJKmDmStiSpVb98xMtldHynMDvswA5Sr5YwhfP9NA/viewform?usp=dialog" white>
+          <Button href="https://t.me/synpsxyz/1" white>
             Experience Agents that do
           </Button>
         </div>

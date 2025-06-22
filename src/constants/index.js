@@ -204,6 +204,7 @@ export const pricing = [
       "Participate in community bounties and grants.",
     ],
     cta: "Start Free",
+    url: "https://t.me/synpsxyz/5",
   },
   {
     id: "1",
@@ -218,6 +219,7 @@ export const pricing = [
       "Receive priority support for rapid development.",
     ],
     cta: "Get Started",
+    url: "https://t.me/synpsxyz/7",
   },
   {
     id: "2",
@@ -232,6 +234,7 @@ export const pricing = [
       "Maximize performance for high-volume agentic commerce.",
     ],
     cta: "Contact Us",
+    url: "https://t.me/synpsxyz/8",
   },
 ];
 
