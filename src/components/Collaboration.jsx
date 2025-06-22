@@ -43,13 +43,20 @@ const Collaboration = () => {
                   <img src={check} width={24} height={24} alt="check" />
                   <h6 className="body-2 ml-5">{item.title}</h6>
                 </div>
-                {expanded === item.id && (
-                  <div className="transition-all duration-[900ms] ease-in-out overflow-hidden mt-3" style={{opacity: expanded === item.id ? 1 : 0, maxHeight: expanded === item.id ? '10rem' : '0', transitionProperty: 'opacity, max-height'}}>
-                    <p className="body-2 text-n-4">
+
+                <div
+                  className="grid transition-all duration-700 ease-in-out"
+                  style={{
+                    gridTemplateRows: expanded === item.id ? "1fr" : "0fr",
+                    opacity: expanded === item.id ? 1 : 0,
+                  }}
+                >
+                  <div className="overflow-hidden">
+                    <p className="body-2 text-n-4 pt-4">
                       {item.description}
                     </p>
                   </div>
-                )}
+                </div>
               </li>
             ))}
           </ul>
