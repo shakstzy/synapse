@@ -11,7 +11,7 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Focus on Outcomes not how its's done"
+          title="Focus on outcomes, not how its's done"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">

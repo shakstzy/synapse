@@ -106,9 +106,21 @@ export const companyLogos = [
 ];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  {
+    id: "0",
+    title: "Executing Intents",
+    description: "Transform natural language goals into precise, actionable operations on-chain.",
+  },
+  {
+    id: "1",
+    title: "Automating Complex Workflows",
+    description: "Orchestrate multi-step processes across various Web3 services seamlessly.",
+  },
+  {
+    id: "2",
+    title: "Integrating Instantly",
+    description: "Bridge fragmented ecosystems with standardized Model Context Protocol (MCP) servers.",
+  },
 ];
 
 export const brainwaveServicesIcons = [
@@ -173,24 +185,24 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Empowering innovation with intelligent automation & robust validation to revolutionize dApp user experiences.";
 
 export const collabContent = [
   {
     id: "0",
     title: "Seamless Integration",
     text: collabText,
-    description: "Integrate with your favorite tools and platforms effortlessly, ensuring your workflows remain uninterrupted and efficient.",
+    description: "Effortlessly connect AI with any Web3 protocol or traditional service through standardized Model Context Protocol (MCP) servers.",
   },
   {
     id: "1",
     title: "Smart Automation",
-    description: "Automate repetitive tasks and processes, freeing up your team to focus on what matters most.",
+    description: "Transform natural language intents into precise, autonomously executed actions across complex on-chain and off-chain workflows.",
   },
   {
     id: "2",
     title: "Top-notch Security",
-    description: "Benefit from enterprise-grade security protocols that keep your data and operations safe at all times.",
+    description: "Built on a foundation of rigorous operator requirements, on chain event monitoring, and community-driven verification for unparalleled reliability and trust.",
   },
 ];
 
@@ -258,7 +270,7 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Unleash Autonomous AI",
+    title: "Unleash Truly Autonomous AI",
     text: "Empower AI to execute complex intents seamlessly across Web3 and traditional services, transforming natural language into action.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: aiIcon,
@@ -283,7 +295,7 @@ export const benefits = [
   },
   {
     id: "3",
-    title: "Experience Unrivaled Reliability",
+    title: "Unrivaled Reliability",
     text: "Rely on community-driven maintenance and a Verifier Agent for guaranteed uptime and trusted performance across all agentic operations.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: reliabilityIcon,

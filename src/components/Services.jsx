@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Section from "./Section";
 import Heading from "./Heading";
 import { service1, service2, service3, check } from "../assets";
@@ -12,12 +13,14 @@ import {
 import Generating from "./Generating";
 
 const Services = () => {
+  const [expandedService, setExpandedService] = useState(null);
+
   return (
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Synapse unlocks the potential of AI-powered applications"
+          title="Enabling Independent Agentic Commerce"
+          text="Synapse elevates the capabilities of intelligent applications, enabling self-governing task completion and redefining intelligent commerce."
         />
 
         <div className="relative">
@@ -32,19 +35,37 @@ const Services = () => {
               />
             </div>
 
-            <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+            <div className="relative z-1 max-w-[22rem] ml-auto">
+              <h4 className="h4 mb-4">Powering Autonomous Operations</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Synapse unlocks the potential of AI-powered applications
+                Synapse augments users on chain capabilities through
               </p>
               <ul className="body-2">
-                {brainwaveServices.map((item, index) => (
+                {brainwaveServices.map((item) => (
                   <li
-                    key={index}
-                    className="flex items-start py-4 border-t border-n-6"
+                    key={item.id}
+                    className="py-4 border-t border-n-6 cursor-pointer"
+                    onMouseEnter={() => setExpandedService(item.id)}
+                    onMouseLeave={() => setExpandedService(null)}
                   >
-                    <img width={24} height={24} src={check} />
-                    <p className="ml-4">{item}</p>
+                    <div className="flex items-center">
+                      <img width={24} height={24} src={check} />
+                      <h6 className="body-2 ml-4 font-bold">{item.title}</h6>
+                    </div>
+                    <div
+                      className="grid transition-all duration-500 ease-in-out"
+                      style={{
+                        gridTemplateRows:
+                          expandedService === item.id ? "1fr" : "0fr",
+                        opacity: expandedService === item.id ? 1 : 0,
+                      }}
+                    >
+                      <div className="overflow-hidden">
+                        <p className="body-2 text-n-3 pl-10 pt-2">
+                          {item.description}
+                        </p>
+                      </div>
+                    </div>
                   </li>
                 ))}
               </ul>
@@ -64,10 +85,9 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
+                <h4 className="h4 mb-4">Streamlined Product Development</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                  Synapse abstracts away complex integrations, allowing you to focus on user experience and innovation.
                 </p>
               </div>
 
@@ -76,10 +96,9 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">Unlock New Financial Products</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world's most powerful AI photo and video art generation
-                  engine. What will you create?
+                  The world's most powerful engine for composing novel, AI-driven financial instruments. What will you build? Combine MCP servers to create custom, composable products and monetize your creations.
                 </p>
 
                 <ul className="flex items-center justify-between">
