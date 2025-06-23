@@ -217,4 +217,10 @@ export {
   whiteIcon3,
   whiteIcon4,
   whiteIcon5,
+  background1,
+  background2,
+  background3,
+  background4,
+  background5,
+  background6,
 };

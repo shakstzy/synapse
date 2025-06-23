@@ -63,6 +63,12 @@ import {
   whiteIcon5,
   image1,
   image4,
+  background1,
+  background2,
+  background3,
+  background4,
+  background5,
+  background6,
 } from "../assets";
 
 export const navigation = [
@@ -78,7 +84,7 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Benefits",
     url: "#how-to-use",
   },
   {
@@ -265,7 +271,7 @@ export const benefits = [
     text: "Empower AI to execute complex intents seamlessly across Web3 and traditional services, transforming natural language into action.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: aiIcon,
-    imageUrl: benefitImage2,
+    imageUrl: background1,
   },
   {
     id: "1",
@@ -273,7 +279,7 @@ export const benefits = [
     text: "Abstract away fragmented infrastructure, making decentralized applications and structured products effortlessly accessible for all users.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: web3Icon,
-    imageUrl: benefitImage2,
+    imageUrl: background2,
     light: true,
   },
   {
@@ -282,7 +288,7 @@ export const benefits = [
     text: "Compose bespoke structured financial products from modular MCP servers, unlocking new revenue streams and fostering rapid innovation.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: buildIcon,
-    imageUrl: benefitImage2,
+    imageUrl: background3,
   },
   {
     id: "3",
@@ -290,7 +296,7 @@ export const benefits = [
     text: "Rely on community-driven maintenance and a Verifier Agent for guaranteed uptime and trusted performance across all agentic operations.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: reliabilityIcon,
-    imageUrl: benefitImage2,
+    imageUrl: background4,
     light: true,
   },
   {
@@ -299,7 +305,7 @@ export const benefits = [
     text: "Extend AI's reach to legacy systems and private APIs using our Agent Development Kit (ADK), bridging the on-chain and off-chain worlds.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: integrationIcon,
-    imageUrl: benefitImage2,
+    imageUrl: background5,
   },
   {
     id: "5",
@@ -307,7 +313,7 @@ export const benefits = [
     text: "Gain unique, real-time market intelligence from aggregated agent usage and intent flows, optimizing your products and investments.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: dataIcon,
-    imageUrl: benefitImage2,
+    imageUrl: background6,
   },
 ];
 
