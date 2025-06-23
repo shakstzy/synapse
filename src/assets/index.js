@@ -109,6 +109,13 @@ import whiteIcon3 from "./whiteicons/image (2).png";
 import whiteIcon4 from "./whiteicons/image copy.png";
 import whiteIcon5 from "./whiteicons/image (2) copy.png";
 
+import background1 from "./backgroundvectors/Gemini_Generated_Image_a6vl7ka6vl7ka6vl.png";
+import background2 from "./backgroundvectors/Gemini_Generated_Image_wug7bxwug7bxwug7.png";
+import background3 from "./backgroundvectors/Gemini_Generated_Image_u0ytseu0ytseu0yt.png";
+import background4 from "./backgroundvectors/Gemini_Generated_Image_kfjl9kkfjl9kkfjl.png";
+import background5 from "./backgroundvectors/Gemini_Generated_Image_55k20z55k20z55k2.png";
+import background6 from "./backgroundvectors/Gemini_Generated_Image_62svlk62svlk62sv.png";
+
 export {
   brainwave,
   check,
