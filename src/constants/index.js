@@ -55,6 +55,12 @@ import {
   reliabilityIcon,
   integrationIcon,
   dataIcon,
+  socialMediaGif,
+  whiteIcon1,
+  whiteIcon2,
+  whiteIcon3,
+  whiteIcon4,
+  whiteIcon5,
 } from "../assets";
 
 export const navigation = [
@@ -124,11 +130,11 @@ export const brainwaveServices = [
 ];
 
 export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
+  whiteIcon1,
+  whiteIcon2,
+  whiteIcon3,
+  whiteIcon4,
+  whiteIcon5,
 ];
 
 export const roadmap = [
@@ -224,7 +230,7 @@ export const pricing = [
   {
     id: "0",
     title: "Developer",
-    description: "Access Synapse's core platform and documentation.",
+    description: "Access Synapse's core platform, documentation, and community-generated MCP.",
     price: null,
     features: [
       "Access Synapse's core platform and documentation.",
@@ -247,8 +253,8 @@ export const pricing = [
       "Gain insights with usage analytics for your listed servers.",
       "Receive priority support for rapid development.",
     ],
-    cta: "Get Started",
-    url: "https://t.me/synpsxyz/7",
+    cta: "Contact Us",
+    url: "https://t.me/synpsxyz/6",
   },
   {
     id: "2",
@@ -263,7 +269,7 @@ export const pricing = [
       "Maximize performance for high-volume agentic commerce.",
     ],
     cta: "Contact Us",
-    url: "https://t.me/synpsxyz/8",
+    url: "https://t.me/synpsxyz/7",
   },
 ];
 

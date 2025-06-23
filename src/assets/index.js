@@ -22,6 +22,8 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 import website from "./website.svg";
 import websitesquare from "./websitesquare.svg";
+import MwgLGif from "./MwgL.gif";
+import socialMediaGif from "./social-media.gif";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
@@ -98,6 +100,12 @@ import buildIcon from "./6rectangle/new/buildlogo.png";
 import reliabilityIcon from "./6rectangle/new/reliabilitylogo.png";
 import integrationIcon from "./6rectangle/new/integratelogo.png";
 import dataIcon from "./6rectangle/new/datalogo.png";
+
+import whiteIcon1 from "./whiteicons/image.png";
+import whiteIcon2 from "./whiteicons/image (1).png";
+import whiteIcon3 from "./whiteicons/image (2).png";
+import whiteIcon4 from "./whiteicons/image copy.png";
+import whiteIcon5 from "./whiteicons/image (2) copy.png";
 
 export {
   brainwave,
@@ -191,4 +199,11 @@ export {
   reliabilityIcon,
   integrationIcon,
   dataIcon,
+  MwgLGif,
+  socialMediaGif,
+  whiteIcon1,
+  whiteIcon2,
+  whiteIcon3,
+  whiteIcon4,
+  whiteIcon5,
 };
